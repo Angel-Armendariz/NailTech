@@ -1,0 +1,55 @@
+*{
+    background-color: #242582;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+body{
+    background-color: #99738E;
+    width: 1200px;
+    height: fit-content;
+    display: flexbox;
+    justify-content: center;
+    margin: auto;
+}
+
+.title, .bio, #portfolio{
+    text-align: center;
+    color: white;
+    background-color: #99738E;
+}
+
+.bio{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+}
+
+.fade-In{
+    background-color: #99738E;
+    color: white;
+    text-align: center;
+}
+
+.portfolio{
+    width:1000px;
+    height:900px;
+    display: block;
+    margin: auto;
+    padding-bottom: 100px;
+    background-color: #99738E;
+}
+
+.link{
+    background-color: #99738E;
+}
