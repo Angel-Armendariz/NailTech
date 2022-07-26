@@ -1,3 +1,4 @@
+/*==================== FUNCTION TO FADE IN THE ELEMENTS ====================*/
 function reveal() {
     var reveals = document.querySelectorAll('.reveal');
     for (var i = 0; i < reveals.length; i++) {

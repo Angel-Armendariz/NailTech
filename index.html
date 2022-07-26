@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <!-- ============================== Nav Menu ============================== -->
+    <header class="header" id="header">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <nav class="nav">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <ul class="nav__item">
+                        <a href="#home" class="nav__link">
+                            Home
+                        </a>
+                    </ul>
+                    <ul class="nav__item">
+                        <a href="#pricing" class="nav__link">
+                            Pricing
+                        </a>
+                    </ul>
+                    <ul class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            Contact Me
+                        </a>
+                    </ul>
+                    <ul class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            Portfolio
+                        </a>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
+    <!-- ============================== Header ============================== -->
         <title>Ruby's Nails</title>
         <link rel="stylesheet" type="text/css" href="styles.css" />
     </header>
     <body>
-        <h1 class="title">Ruby's Nails</h1>
-        <h2 class="bio">Hi, my name is Ruby and I am an aspiring nail technician. I practice making cute nail designs on my free time and love seeing the end result.</h2>
-        <h1 class="title reveal">$ Pricing $</h1>
+        <h1 class="title" id="home">Ruby's Nails</h1>
+        <h2 class="bio">Hi, my name is Ruby and I am an aspiring nail technician. I enjoy styling gel nails on my free time and love making new designs.</h2>
+        <!-- ============================== Pricing ============================== -->
+        <h1 class="title reveal " id="pricing">$ Pricing $</h1>
         <h2 class="bio reveal">I currently work with gel nails and prices start from $10-$15. I take cash and Zelle at (562)-556-6322.</h2>
-        <h1 class="title reveal">Contact Me</h1>
+        <!-- ============================== Contact ============================== -->
+        <h1 class="title reveal" id="contact">Contact Me</h1>
         <h2 class="bio reveal">You can contact me through my number posted above or through my <a class="link" href="https://www.instagram.com/ruby_179_esme/">Instagram</a> for booking.</h2>
+        <!-- ============================== Portfolio ============================== -->
         <h1 class="fade-In reveal" id="portfolio">Portfolio</h1>
         <h2 class="fade-In reveal">Some of my previous work with gel nails </h2>
         <img class="portfolio reveal" src="NailTechPort1.jpg"/>
